@@ -27,6 +27,8 @@ const { calcularCuenta } = require("./07-calcular-cuenta");
 
 function cerrarMesa(menu, numeros) {
   // Tu código aquí
+
+  const cartaDelDia = soloDisponibles(menu);
 }
 
 // No borres esta línea: es la puerta por donde el test usa tu función
